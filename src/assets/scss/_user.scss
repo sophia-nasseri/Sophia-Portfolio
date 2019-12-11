@@ -1,0 +1,41 @@
+// 
+// user.scss
+// Use this to write your custom SCSS
+//* 
+.bg-blue{
+    background-color: #171760;
+}
+h3 {
+    color: #171760;
+}
+a.nav-link:hover{
+    color:#FFE130;
+    text-decoration: underline 5px;
+    text-decoration-color: #FFE130;
+}
+a.nav-link{
+    color:white;
+}
+.card-img-top {
+      max-width:35%;
+      max-height:35%;
+    }
+.card {
+    background: #ccccff;
+}
+.card2{
+    background:#cce4ff;
+}
+.btn {
+    background:#171760;
+    color: white;
+}
+.bl-bg{
+    background: #cce4ff;
+}
+.nav-tabs .nav-link:not(.active){
+    color: #171760;
+}
+.nav-tabs .nav-link:not(.active):hover {
+    color: black;
+}
