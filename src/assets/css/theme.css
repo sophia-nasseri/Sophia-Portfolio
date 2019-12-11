@@ -10912,8 +10912,8 @@ h3 {
 
 a.nav-link:hover {
   color: #FFE130;
-  -webkit-text-decoration: underline 5px;
-          text-decoration: underline 5px;
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
   -webkit-text-decoration-color: #FFE130;
           text-decoration-color: #FFE130; }
 
@@ -10934,6 +10934,14 @@ a.nav-link {
   background: #171760;
   color: white; }
 
+.btn:hover {
+  background: black;
+  color: #FFE130;
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
+  -webkit-text-decoration-color: #FFE130;
+          text-decoration-color: #FFE130; }
+
 .bl-bg {
   background: #cce4ff; }
 
@@ -10942,3 +10950,19 @@ a.nav-link {
 
 .nav-tabs .nav-link:not(.active):hover {
   color: black; }
+
+p {
+  text-align: justify; }
+
+a.dropdown-item {
+  color: #171760; }
+
+a.dropdown-item:hover {
+  color: black;
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
+  -webkit-text-decoration-color: #FFE130;
+          text-decoration-color: #FFE130; }
+
+.bldark-bg {
+  background: #ccccff; }
