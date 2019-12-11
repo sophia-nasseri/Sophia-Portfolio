@@ -24,31 +24,36 @@
 
     
 
-    <title>Auchan Drive</title>
+    <title>Projet-Auchan Drive</title>
 </head>
 
 <body>
-    <header class="bg-blue p-3">
-        <div class="row justify-content-center">
-            <div class="col-auto">
-                <ul class="nav">
-                    <li class="nav-item pxlg-5">
-                        <a class="nav-link" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item pxlg-5">
-                        <a class="nav-link" href="#">Projets</a>
-                    </li>
-                    <li class="nav-item pxlg-5">
-                        <a class="nav-link" href="#">A propos</a>
-                </ul>
-            </div>
-        </div>
-    </header>
+        <header class="bg-blue p-3">
+                <div class="row justify-content-center">
+                  <div class="col-auto">
+                    <ul class="nav">
+                      <li class="nav-item px-lg-5">
+                        <a class="nav-link" href="index.html">ACCUEIL</a>
+                      </li>
+                      <li class="nav-item dropdown px-lg-5">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">PROJETS</a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="shiseido.html">SHISEIDO</a>
+                              <a class="dropdown-item" href="auchan.html">AUCHAN DRIVE</a>
+                            </div>
+                      </li>
+                      <li class="nav-item px-lg-5">
+                        <a class="nav-link" href="#">A PROPOS</a>
+                    </ul>
+                  </div>
+                </div>
+              </header>
 
     <!-- MAIN CONTENT
     ================================================== -->
     <div class="main-content">
-        <div class="container">
+        <div class="container-fluid">
             <div class="bl-bg header px-5">
                 <div class="col mb-3 ml-n3 ml-md-n2">
                     <h1 class="header-title py-5">
@@ -56,10 +61,10 @@
                     </h1>
                     <p>AUCHAN DRIVE est un projet académique que j’ai réalisé en groupe lors de ma formation UX
                         Designer</p>
-                    <p>Objectif: <b>redesign de l’application Android suite à note moyenne sur Google Play </b> <br>
+                    <p>Objectif: <b>redesign de l’application Android</b> <br>
                         Nombre de personnes dans le groupe : <b>5 </b> <br>
                         Temps de réalisation: <b>4 jours</b> <br>
-                        Rôle: <b>création des pages de listes produits, barre de naviagtaion et notifications d’ajout au
+                        Rôle: <b> protypage des pages de listes produits, de la barre de naviagtaion et des notifications d’ajout au
                             panier</b> </p>
                 </div>
                 <div class="container-fluid">
@@ -122,112 +127,128 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <img src="contexte.png" alt="contexte" class="img-fluid">
-                    <figcaption>Analyse des commentaires des utilisateurs</figcaption>
+                    <figcaption>Analyse des commentaires utilisateurs</figcaption>
                 </div>
-                <div class="bl-bg row px-5 my-5" id="solution">
-                    <div class="col-12 col-lg-6">
-                        <img src="Solution.jpg" alt="Solution proposée" class="img-fluid mt-5 pt-5">
-                        <figcaption>Croquis du prototype</figcaption>
-                    </div class="bl-bg">
-                    <div class="col-12 col-lg-6 px-5 my-5">
-                        <h2>SOLUTIONS PROPOSEES</h2>
-                        <h3>Hypothèses</h3>
-                        <p>Afin de délimiter un périmètre lors de la phase de prototypage, nous avons priorisé certains
-                            les
-                            fonctionnalités à réaliser lors de la première version du prototype. <br>
-                            Nous avons posé les hypothèses suivantes : <br> <br>
-                            • Comment pourrions-nous simplifier la création de compte ? <br>
-                            • Comment pourrion-nous simplifer la navigation et l’accès aux rayons ?<br>
-                            • Comment pourrions nous suggérer un produit alternatif si un produit est indisponible ?
-                            <br>
-                        </p>
-                        <h3>Persona</h3>
-                        <p>Notre objectif était de centrer le protoype sur la création de compte. En tant que persona
-                            nous
-                            avons donc défini un nouvel utilisateur faisant ses courses toutes les semaines, ayant
-                            l’habitude d’utiliser des drives mais ne connaissant pas Auchan Drive.
-                        </p>
-                        <h3>Parcours utilisateur et croquis</h3>
-                        <p>En fonction des hypothèses et du persona, chaque personne a proposé un parcours utlisateur
-                            étapes
-                            par étapes. Sur un système de vote, nous avons choisi un seul parcours :</p>
-                        <p> • Création de compte <br>
-                            • Sélection du drive <br>
-                            • Recherche d’un produit via les catégories/sous-catégories <br>
-                            • Ajout au panier d’un produit avec gestion des favoris, de l’indisponibilité et des
-                            promotions <br>
-                            • Remplacement d’un produit indisponible dans le panier</p>
-                        <p>Selon le parcours utilisateur, chaque personne a proposé des croquis des écrans
-                            correspondants.
-                            Toujours sur un système de vote, nous avons choisi et redessiné les croquis. Le but étant
-                            d’avoir un parcours complet avec un croquis pour chaque écran à réaliser avant de commencer
-                            la
-                            phase de prototypage.</p>
+                <div class="conainer-fluid">
+                    <div class="bl-bg row lg-px-5 lg-my-5" id="solution">
+                        <div class="col-12 col-lg-6">
+                            <img src="Solution.jpg" alt="Solution proposée" class="img-fluid mt-5 pt-5">
+                            <figcaption>Croquis du prototype</figcaption>
+                        </div class="bl-bg">
+                        <div class="col-12 col-lg-6 px-5 my-5">
+                            <h2>SOLUTIONS PROPOSEES</h2>
+                            <h3>Hypothèses</h3>
+                            <p>Afin de délimiter un périmètre lors de la phase de prototypage, nous avons priorisé
+                                certains
+                                les
+                                fonctionnalités à réaliser lors de la première version du prototype. <br>
+                                Nous avons posé les hypothèses suivantes : <br> <br>
+                                • Comment pourrions-nous simplifier la création de compte ? <br>
+                                • Comment pourrion-nous simplifer la navigation et l’accès aux rayons ?<br>
+                                • Comment pourrions nous suggérer un produit alternatif si un produit est indisponible ?
+                                <br>
+                            </p>
+                            <h3>Persona</h3>
+                            <p>Notre objectif était de centrer le protoype sur la création de compte. En tant que
+                                persona
+                                nous
+                                avons donc défini un nouvel utilisateur faisant ses courses toutes les semaines, ayant
+                                l’habitude d’utiliser des drives mais ne connaissant pas Auchan Drive.
+                            </p>
+                            <h3>Parcours utilisateur et croquis</h3>
+                            <p>En fonction des hypothèses et du persona, chaque personne a proposé un parcours
+                                utlisateur
+                                étapes
+                                par étapes. Sur un système de vote, nous avons choisi un seul parcours :</p>
+                            <p> • Création de compte <br>
+                                • Sélection du drive <br>
+                                • Recherche d’un produit via les catégories/sous-catégories <br>
+                                • Ajout au panier d’un produit avec gestion des favoris, de l’indisponibilité et des
+                                promotions <br>
+                                • Remplacement d’un produit indisponible dans le panier</p>
+                            <p>Selon le parcours utilisateur, chaque personne a proposé des croquis des écrans
+                                correspondants.
+                                Toujours sur un système de vote, nous avons choisi et redessiné les croquis. Le but
+                                étant
+                                d’avoir un parcours complet avec un croquis pour chaque écran à réaliser avant de
+                                commencer
+                                la
+                                phase de prototypage.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row" id="design px-5 my-5">
-                <div class="col-12 col-lg-12">
-                    <h2>DESIGN ET PROTYPE</h2>
-                    <h3>Accueil</h3>
-                    <p> L'utilisateur a la possiblité de se connecter de créer uncompte,ou de passer la
-                        connexion pour accéder directement aux rayons</p>
+            <div class="container-fluid">
+                <div class="row" id="design px-5 my-5">
+                    <div class="col-12 col-lg-12">
+                        <h2>DESIGN ET PROTYPE</h2>
+                        <h3>Accueil</h3>
+                        <p> L'utilisateur a la possiblité de se connecter de créer uncompte,ou de passer la
+                            connexion pour accéder directement aux rayons</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="a-accueil.png" alt="Ecran d'accueil" class="img-fluid d-block my-5">
+                    <div class="col-12 col-lg-12">
+                        <h3>Création de compte</h3>
+                        <p>La création de compte a été simplifiée en une seule étape en laissant la possibilité de créer
+                            un
+                            compte avec
+                            la carte de fidélité du magasin</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="a-compte.png" alt="Ecran de création de compte" class="img-fluid d-block my-5">
+                    <div class="col-12 col-lg-12">
+                        <h3>Choix du drive</h3>
+                        <p>L'utilisateur peut choisir le drive souhaité en rentrant un code postal ou en activant la
+                            géolocalisation</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="a-drive.png" alt="Ecran de sélection du drive" class="img-fluid d-block my-5">
+                    <div class="col-12 col-lg-12">
+                        <h3>Choix du rayon</h3>
+                        <p>Ecran d’accueil des différents rayons avec un onglet promotions et favoris. La barre de
+                            navigation principale
+                            été placée en bas de l'écran pour simplifier la navigation</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="a-home.png" alt="Ecran de sélection des catégories" class="img-fluid d-block my-5">
+                    <div class="col-12 col-lg-12">
+                        <h3>Choix du produit</h3>
+                        <p>Choix du porduit avec notification d’ajout au panier sur la barre de navigation supérieure
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="a-listeproduitpng.png" alt="Ecran de liste des produits" class="img-fluid d-block my-5">
+                    <div class="col-12 col-lg-12">
+                        <h3>Gestion de la rupture de stock d'un produit dans le panier</h3>
+                        <p>A la validation du panier, lorsqu'un produit n'est plus disponible, l'utlisateur reçoit une
+                            notification</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="a-rupture.png" alt="Ecran de rupture de stock dans le panier"
+                        class="img-fluid d-block my-5">
+                    <div class="col-12 col-lg-12">
+                        <h3>Proposition d'alternative pour un produit indisponible</h3>
+                        <p>L'utilisatur peut soit remplacer son produit par une des alternatives proposées, soit choisir
+                            lui-même son produit ou ne pas remplacer le produit</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="a-alternative.png" alt="Ecran de sélection du drive" class="img-fluid my-5">
                 </div>
-                <div class="col-12 col-lg-4">
-                </div>
-                <img src="a-accueil.png" alt="Ecran d'accueil" class="img-fluid d-block my-5">
-                <div class="col-12 col-lg-12">
-                    <h3>Création de compte</h3>
-                    <p>La création de compte a été simplifiée en une seule étape en laissant la possibilité de créer un compte avec
-                        la carte de fidélité du magasin</p>
-                </div>
-                <div class="col-12 col-lg-4">
-                </div>
-                <img src="a-compte.png" alt="Ecran de création de compte" class="img-fluid d-block my-5">
-                <div class="col-12 col-lg-12">
-                    <h3>Choix du drive</h3>
-                    <p>L'utilisateur peut choisir le drive souhaité en rentrant un code postal ou en activant la géolocalisation</p>
-                </div>
-                <div class="col-12 col-lg-4">
-                </div>
-                <img src="a-drive.png" alt="Ecran de sélection du drive" class="img-fluid d-block my-5">
-                <div class="col-12 col-lg-12">
-                    <h3>Choix du rayon</h3>
-                    <p>Ecran d’accueil des différents rayons avec un onglet promotions et favoris. La barre de navigation principale
-                        été placée en bas de l'écran pour simplifier la navigation</p>
-                </div>
-                <div class="col-12 col-lg-4">
-                </div>
-                <img src="a-home.png" alt="Ecran de sélection des catégories" class="img-fluid d-block my-5">
-                <div class="col-12 col-lg-12">
-                    <h3>Choix du produit</h3>
-                    <p>Choix du porduit avec notification d’ajout au panier sur la barre de navigation supérieure</p>
-                </div>
-                <div class="col-12 col-lg-4">
-                </div>
-                <img src="a-listeproduitpng.png" alt="Ecran de liste des produits" class="img-fluid d-block my-5">
-                <div class="col-12 col-lg-12">
-                    <h3>Gestion de la rupture de stock d'un produit dans le panier</h3>
-                    <p>A la validation du panier, lorsqu'un produit n'est plus disponible, l'utlisateur reçoit une notification</p>
-                </div>
-                <div class="col-12 col-lg-4">
-                </div>
-                <img src="a-rupture.png" alt="Ecran de rupture de stock dans le panier" class="img-fluid d-block my-5">
-                <div class="col-12 col-lg-12">
-                    <h3>Proposition d'alternative pour un produit indisponible</h3>
-                    <p>L'utilisatur peut soit remplacer son produit par une des alternatives proposées, soit choisir lui-même son produit ou ne pas remplacer le produit</p>
-                </div>
-                <div class="col-12 col-lg-4">
-                </div>
-                <img src="a-alternative.png" alt="Ecran de sélection du drive" class="img-fluid my-5">
             </div>
         </div>
- 
-        </div>
-    </div> 
-    <div class="container">
-       <div class="bl-bg row col-12 col-lg-12" id="resultat">
-            <div class="col-12 col-lg-6 px-5 my-5">
+    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="bl-bg row col-12 col-lg-12 ml-1" id="resultat">
+            <div class="col-12 col-lg-12 pt-5">
                 <h2>RESULTATS ET APPRENTISSAGES</h2>
                 <h3>Tests utilisateurs</h3>
                 <p>Pour évaluer notre protoype, nous l’avons fait testé par 5 utilisateurs. Lors des phases de tests une
@@ -245,56 +266,51 @@
                     • La notification d’ajout au panier n’est pas assez visible <br>
                     • La possibilité de supprimer un article du panier n’est pas bien visible <br>
                     • Il y a une confusion entre le prix total et le prix avec économiebr <br>
-                    • Dans la liste produit, on ne sait pas si la promotion est appliquée à toute la liste ou à 1 seul
+                    • Dans la liste produit, on ne sait pas si la promotion est appliquée à toute la liste ou à 1
+                    seul
                     produit <br>
                     • Sur la barre de navigation, le bouton de retour aux catégories principales est perçu comme un
                     bouton de retour à l’accueil de l’application</p>
-                <p>Je vous invite à aller voir la version 2</p>
-                <a href="https://www.figma.com/proto/HLDLycm4kNYwqfzV2PwbNI/Auchan-Drive?node-id=20%3A1720&viewport=470%2C318%2C0.06806156784296036&scaling=min-zoom"
+                <p>Poour voir les modifications apportées, je vous invite à aller voire la <b>version 2</b>du
+                    prototype</p>
+                <a href="https://www.figma.com/proto/HLDLycm4kNYwqfzV2PwbNI/Auchan-Drive?node-id=69%3A1592&viewport=470%2C318%2C0.06806156784296036&scaling=min-zoom"
                     target="blank" class="btn btn-white my-5">VOIR LE PROTOTYPE</a>
-       
+                <p>Nous avons réalisé 2 versions du protoype pour Auchan Drive sur Android. Le but était de se focaliser
+                    sur la création de compte, la navigation entre les rayons et le remplacement d’un produit
+                    indisponible. A la suite de la première série de tests utilisateurs, nous avons pu en tirer des
+                    apprentissages et réaliser une deuxième version du protoype. <br>
+                    Nous avons fait testé la version 2, voici ce qui aurait pu être amélioré si y avait eu d’autres
+                    versions du protoype : <br>
+                    • Travailler et développer les filtres <br>
+                    • Revoir la mise en avant de la promotion <br>
+                    • Avoir une notification de mise en panier plus visible <br>
+                    • Lors de la sélection du drive, proposer plusieurs drives et une géolocalisation directe
+                </p>
             </div>
-            <div class="col-12 col-lg-6 px-5 my-5">
-                <img src="a-test.jpg" alt="Solution proposée" class="img-fluid">
-            </div>
-            <div clas= "col-12 col-lg-10 px-5 mx-5">
-                    <p>Nous avons réalisé 2 versions du protoype pour Auchan Drive sur Android. Le but était de se focaliser
-                            sur la création de compte, la navigation entre les rayons et le remplacement d’un produit
-                            indisponible. A la suite de la première série de tests utilisateurs, nous avons pu en tirer des
-                            apprentissages et réaliser une deuxième version du protoype.
-                            Nous avons fait testé la version 2, voici ce qui aurait pu être amélioré si y avait eu d’autres
-                            versions du protoype : <br>
-                            • Travailler et développer les filtres <br>
-                            • Revoir la mise en avant de la promotion <br>
-                            • Avoir une notification de mise en panier plus visible <br>
-                            • Lors de la sélection du drive, proposer plusieurs drives et une géolocalisation directe
-                        </p>
-            </div>
-    </div>
-    <!-- / .main-content -->
+            <!-- / .main-content -->
 
-    <!-- JAVASCRIPT
+            <!-- JAVASCRIPT
     ================================================== -->
-    <!-- Libs JS -->
-    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
-    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/libs/@shopify/draggable/lib/es5/draggable.bundle.legacy.js"></script>
-    <script src="./assets/libs/autosize/dist/autosize.min.js"></script>
-    <script src="./assets/libs/chart.js/dist/Chart.min.js"></script>
-    <script src="./assets/libs/dropzone/dist/min/dropzone.min.js"></script>
-    <script src="./assets/libs/flatpickr/dist/flatpickr.min.js"></script>
-    <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
-    <script src="./assets/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
-    <script src="./assets/libs/list.js/dist/list.min.js"></script>
-    <script src="./assets/libs/quill/dist/quill.min.js"></script>
-    <script src="./assets/libs/select2/dist/js/select2.min.js"></script>
-    <script src="./assets/libs/chart.js/Chart.extension.min.js"></script>
+            <!-- Libs JS -->
+            <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+            <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="./assets/libs/@shopify/draggable/lib/es5/draggable.bundle.legacy.js"></script>
+            <script src="./assets/libs/autosize/dist/autosize.min.js"></script>
+            <script src="./assets/libs/chart.js/dist/Chart.min.js"></script>
+            <script src="./assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+            <script src="./assets/libs/flatpickr/dist/flatpickr.min.js"></script>
+            <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+            <script src="./assets/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+            <script src="./assets/libs/list.js/dist/list.min.js"></script>
+            <script src="./assets/libs/quill/dist/quill.min.js"></script>
+            <script src="./assets/libs/select2/dist/js/select2.min.js"></script>
+            <script src="./assets/libs/chart.js/Chart.extension.min.js"></script>
 
-    <!-- Map -->
-    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+            <!-- Map -->
+            <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
 
-    <!-- Theme JS -->
-    <script src="./assets/js/theme.min.js"></script>
+            <!-- Theme JS -->
+            <script src="./assets/js/theme.min.js"></script>
 
 </body>
 
