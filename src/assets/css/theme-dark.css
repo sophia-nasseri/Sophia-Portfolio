@@ -11002,9 +11002,6 @@ a.nav-link {
 .nav-tabs .nav-link:not(.active):hover {
   color: black; }
 
-p {
-  text-align: justify; }
-
 a.dropdown-item {
   color: #171760; }
 
@@ -11017,3 +11014,6 @@ a.dropdown-item:hover {
 
 .bldark-bg {
   background: #ccccff; }
+
+p {
+  font-size: 1.125em; }
