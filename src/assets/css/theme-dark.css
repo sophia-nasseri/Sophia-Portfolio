@@ -10963,8 +10963,7 @@ h3 {
 
 a.nav-link:hover {
   color: #FFE130;
-  -webkit-text-decoration: underline 3px;
-          text-decoration: underline 3px;
+  text-decoration: underline;
   -webkit-text-decoration-color: #FFE130;
           text-decoration-color: #FFE130; }
 
@@ -11007,8 +11006,7 @@ a.dropdown-item {
 
 a.dropdown-item:hover {
   color: black;
-  -webkit-text-decoration: underline 3px;
-          text-decoration: underline 3px;
+  text-decoration: underline;
   -webkit-text-decoration-color: #FFE130;
           text-decoration-color: #FFE130; }
 

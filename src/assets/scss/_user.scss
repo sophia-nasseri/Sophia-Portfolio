@@ -10,7 +10,8 @@ h3 {
 }
 a.nav-link:hover{
     color:#FFE130;
-    text-decoration: underline 3px;
+    
+    text-decoration: underline;
     text-decoration-color: #FFE130;
 }
 a.nav-link{
@@ -50,7 +51,7 @@ a.dropdown-item {
 }
 a.dropdown-item:hover {
     color:black;
-    text-decoration: underline 3px;
+    text-decoration: underline;
     text-decoration-color: #FFE130;
 }
 .bldark-bg {
