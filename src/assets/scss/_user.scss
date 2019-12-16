@@ -34,7 +34,7 @@ a.nav-link{
 .btn:hover {
     background: black;
     color:#FFE130;
-    text-decoration: underline 3px;
+    text-decoration: underline;
     text-decoration-color: #FFE130;
 }
 .bl-bg{
@@ -60,4 +60,7 @@ a.dropdown-item:hover {
 p{
     font-size: 	1.125em;
 }
-
+.under {
+    text-decoration: underline;
+    text-decoration-color: #171760;
+}

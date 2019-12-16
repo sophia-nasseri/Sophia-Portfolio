@@ -10936,8 +10936,7 @@ a.nav-link {
 .btn:hover {
   background: black;
   color: #FFE130;
-  -webkit-text-decoration: underline 3px;
-          text-decoration: underline 3px;
+  text-decoration: underline;
   -webkit-text-decoration-color: #FFE130;
           text-decoration-color: #FFE130; }
 
@@ -10964,3 +10963,8 @@ a.dropdown-item:hover {
 
 p {
   font-size: 1.125em; }
+
+.under {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #171760;
+          text-decoration-color: #171760; }
