@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/fonts/feather/feather.min.css">
+    <link rel="stylesheet" href="./assets/libs/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="./assets/libs/quill/dist/quill.core.css">
+    <link rel="stylesheet" href="./assets/libs/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="./assets/libs/highlight.js/styles/vs2015.css">
+
+    <!-- Map -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Theme CSS -->
+      
+    <link rel="stylesheet" href="./assets/css/theme.min.css" id="stylesheetLight">
+
+    <link rel="stylesheet" href="./assets/css/theme-dark.min.css" id="stylesheetDark">
+
+    
+
+    <title>Projet-Shiseido</title>
+</head>
+
+<body>
+    <header class="bg-blue p-3">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <ul class="nav">
+                    <li class="nav-item px-lg-5">
+                        <a class="nav-link" href="index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item px-lg-5">
+                        <a class="nav-link" href="apropos.html">A PROPOS</a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT
+    ================================================== -->
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="bldark-bg header px-5">
+                <div class="col mb-3 ml-n3 ml-md-n2">
+                    <h1 class=" purple header-title py-5">
+                        SHISEIDO
+                    </h1>
+                    <p>SHISEIDO est un projet académique que j’ai réalisé en groupe lors de ma formation UX
+                        Designer</p>
+                    <p>Objectif : <b>création de l’application Android pour optimiser les canaux de vente </b> <br>
+                        Nombre de personnes dans le groupe : <b>5 </b> <br>
+                        Temps de réalisation : <b>5 jours</b> <br>
+                        Rôle : <b> prototypage de la page d’accueil, interview tests utilisateurs</b> </p>
+                </div>
+                <div class="container-fluid">
+                    <div class="header-body mt-n5 mt-md-n6">
+                        <div class="row align-items-end">
+                            <div class="col-auto">
+                            </div>
+                        </div>
+                        <div class="none row align-items-center">
+                            <div class="col d-none d-sm-block">
+                                <ul class="nav nav-tabs nav-overflow header-tabs mt-5">
+                                    <li class="nav-item">
+                                        <a href="#contexte" class="under nav-link">
+                                            CONTEXTE
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#solution" class="under nav-link">
+                                            SOLUTIONS PROPOSÉES
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#design" class="under nav-link">
+                                            DESIGN ET PROTOTYPE
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#resultat" class="under nav-link">
+                                            RÉSULTATS ET APPRENTISSAGES
+                                        </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row px-5 my-5" id="contexte">
+                <div class="col-12 col-lg-6">
+                    <h2>CONTEXTE</h2>
+                    <p>Shiseido est une marque japonaise de cosmétiques et de produits haut de gamme. Ses valeurs sont
+                        centrées sur les techniques d’innovation et la beauté intérieure.
+                        Dans le secteur de la beauté, la plupart des consommateurs préfèrent faire leurs achats
+                        directement
+                        en magasin plutôt qu’en ligne. Les produits de la marque sont vendus principalement chez des
+                        revendeurs. Un conseiller Shiseido n’est pas forcément présent en magasin, ce qui affecte
+                        fortement les
+                        ventes.
+                        Dans cette optique, Shiseido souhaite optimiser ses canaux de ventes en se centrant sur des
+                        questions environnementales et en proposant une approche hyper personnalisée des recommandations
+                        de
+                        produits pour pallier à l’absence de conseiller en magasin. </p>
+                    <p>
+                        La marque a plusieurs objectifs : <br>
+                        • Augmenter les commandes avec retrait en magasin sur les 30 jours précédents Noël <br>
+                        • Augmenter les ventes en magasin sur les 30 jours précédents Noël <br>
+                        • Augmenter les commandes avec livraison éco-responsable sur les 30
+                        jours précédents Noël <br>
+                        • Augmenter le nombre de clients souscrivant au programme de fidélité</p>
+                    <p>Nous avons établi un plan d'action afin d'adapter ces objectifs à la création d'une application
+                        Android. Pour ce faire, nous avons positionné la marque en fonction de ses concurrents sur 2
+                        axes :</p>
+                    <p>• Haut de gamme - Généraliste <br>
+                        • Industriel - Développement durable</p>
+                    <p>Shiseido se positionne actuellement sur un axe haut de gamme - industriel, notre but était
+                        d'orienter la marque un peu plus vers le développement durable.</p>
+                    <p>Lorsque nous avons visité le site de Shiseido, nous avons constaté que : <br>
+                        • Le site ne propose pas de personnalisation lorsque l'utilisateur choisit un produit<br>
+                        • Il n’y a pas de programme de fidélité <br>
+                        • Il n’y a qu’un seul mode de livraison disponible (standard)</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="s-plan.jpg" alt="contexte" class="img-fluid">
+                    <figcaption>Plan d'action</figcaption>
+                </div>
+                <div class="conainer-fluid">
+                    <div class="bldark-bg row lg-px-5 lg-my-5" id="solution">
+                        <div class="col-12 col-lg-6">
+                            <img src="s-benchmark.png" alt="Benchmark personnalisation" class="img-fluid mt-2 pt-5">
+                            <figcaption>Exemples de benchmark pour la personnalisation</figcaption>
+                            <img src="s-croquis.jpg" alt="Croquis du prototype" class="img-fluid my-2 pt-5">
+                            <figcaption>Croquis du prototype</figcaption>
+                        </div class="bl-bg">
+                        <div class="col-12 col-lg-6 px-5 my-5">
+                            <h2>SOLUTIONS PROPOSÉES</h2>
+                            <h3>Hypothèses</h3>
+                            <p>Afin de délimiter un périmètre lors de la phase de prototypage, nous avons priorisé
+                                certaines fonctionnalités à réaliser lors de la première version du prototype. <br>
+                                Nous avons posé les hypothèses suivantes : <br>
+                                • Comment pourrions-nous intégrer une personnalisation sur l’application ? <br>
+                                • Comment pourrions-nous mettre en place des livraisons éco-responsables ?</p>
+                            <h3>Persona</h3>
+                            <p>Puisque la marque souhaite augmenter ses ventes pendant la période de Noël, nous avons
+                                ciblé un persona vaste :</p>
+                            <p> • Julie, 37 ans, peau fragile, achète ses soins du visage en pharmacie <br>
+                                • Solène, 18 ans, cliente régulière chez Sephora et Kiko <br>
+                                • Marie, 55 ans, veut rester jeune, attentive aux produits naturels et haut de gamme
+                            </p>
+                            <p>Pour la première phase de prototypage, nous nous sommes limités à un seul persona (Solène)
+                            </p>
+                            <h3>Parcours utilisateur et croquis</h3>
+                            <p>En fonction des hypothèses et du persona, chaque personne a proposé un parcours
+                                utilisateur,
+                                étapes par étapes. <br> Sur un système de vote, nous avons choisi un seul parcours :
+                                <br></p>
+                            <p>• Réception d’un bon d’achat de 15 euros sur la gamme soin du visage, valable
+                                uniquement sur l’application et après la création d’un compte fidélité <br>
+                                • Accéder à la rubrique de Noël <br>
+                                • Passer un questionnaire de personnalisation en fonction du type de peau <br>
+                                • Obtenir une suggestion de produit en fonction du questionnaire <br>
+                                • Ajouter au panier le produit suggéré <br>
+                                • Choisir le mode de livraison <br>
+                                • Valider la commande et utiliser le bon d’achat <br></p>
+                            <p> Afin de mettre en place un questionnaire de personnalisation et de nouveaux modes de
+                                livraisons, nous avons réalisé un benchmark. Le benchmark consiste à analyser, comparer
+                                les pratiques des concurrents.</p>
+                            <p>Selon le parcours utilisateur, chaque personne a proposé des croquis des écrans
+                                correspondants. Toujours sur un système de vote, nous avons choisi et redessiné les
+                                croquis.
+                                Le but étant d’avoir un parcours complet avec un croquis pour chaque écran à réaliser
+                                avant
+                                de commencer la phase de prototypage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row px-5 my-5" id="design">
+                    <div class="col-12 col-lg-12">
+                        <h2>DESIGN ET PROTOTYPE</h2>
+                        <p>À partir des croquis, nous avons créé le prototype sur Figma.</p>
+                        <h3>Accueil</h3>
+                        <p>Nous avons placé les différents modes de livraisons sur l'écran d'accueil, afin que les
+                            utilisateurs puissent en prendre connaissance dès le début de leur parcours. La livraison
+                            éco-responsable permet d'obtenir une réduction de 1 euro sur le total de la commande.</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="s-home.png" alt="Ecran d'accueil" class="img-fluid d-block my-5">
+                    <div class="col-12 col-lg-12">
+                        <h3>Rubrique de Noël</h3>
+                        <p> Pour débuter la phase de personnalisation, l'utilisateur répond à des questions pour
+                            déterminer le type de produit qu'il recherche.</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="s-noel.png" alt="Ecran de boutique de noël" class="img-fluid d-block my-5">
+                    <div class="col-12 col-lg-12">
+                        <h3>Questionnaire de personnalisation sur le type de peau</h3>
+                        <p>Le questionnaire permet à l’utilisateur de connaître son type de peau et de lui proposer un
+                            produit adapté.</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="s-quizz.png" alt="Ecran de questionnaire de personnalisation"
+                        class="img-fluid d-block my-5">
+                    <div class="col-12 col-lg-12">
+                        <h3>Fiche produit</h3>
+                        <p>L'utilisateur obtient une suggestion de produit en fonction des réponses au questionnaire.
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="s-produit.png" alt="Ecran de fiche produit" class="img-fluid d-block my-5">
+                    <div class="col-12 col-lg-12">
+                        <h3>Panier</h3>
+                        <p>Lorsque l'utilisateur consulte son panier, la livraison éco-responsable est mise en avant.
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="s-panier.png" alt="Ecran de panier" class="img-fluid d-block my-5">
+                    <div class="col-12 col-lg-12">
+                        <h3>Récapitulatif de la commande</h3>
+                        <p>Avant de valider sa commande, l'utilisateur a la possibilité d’appliquer son bon de réduction
+                            ou non. On lui précise bien la réduction qu'il obtient grâce au choix de la livraison
+                            éco-responsable.</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="s-paiement.png" alt="Ecran de paiement" class="img-fluid d-block my-5">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="bldark-bg row col-12 col-lg-12 ml-1" id="resultat">
+            <div class="col-12 col-lg-12 pt-5">
+                <h2>RÉSULTATS ET APPRENTISSAGES</h2>
+                <h3>Tests utilisateurs</h3>
+                <p>Nous avons fait testé le prototype par 5 utilisateurs dans le but de faire ressortir les erreurs et
+                    les problèmes rencontrés. Lors des phases de tests,
+                    j’ai réalisé l’interview pour guider le test. Je demande à l’utilisateur de penser à haute
+                    voix lorsqu’il teste l’application. Toutes les autres personnes du groupe prennent en note les
+                    remarques de l’utilisateur.
+                    Au préalable, j’ai écrit un guide d’interview pour m’assurer que les questions posées soient en
+                    adéquation avec les hypothèses posées. J’ai mis en place des critères de recrutement afin que les
+                    utilisateurs correspondent au persona.
+                    Nous avons lancé une campagne de recrutement à travers des affiches et les réseaux sociaux de manière
+                    à ce que des personnes extérieures à la formation testent notre prototype.</p>
+                <h3>Priorisation des apprentissages</h3>
+                <p>Chaque personne du groupe fait remonter les commentaires qui sont revenus au moins 3 fois lors des tests. En
+                    fonction de la valeur ajoutée pour l’utilisateur et de la difficulté technique, on priorise les
+                    fonctionnalités qui vont être modifiées et améliorées dans la 2ème version du prototype. <br>
+
+                    Voici les apprentissages que l’on a pu retenir : <br>
+
+                    • l’affichage des différents modes de livraison est trop imposant sur la première page <br>
+                    • Le contraste entre la typologie et le fond sur la bannière de Noël est trop faible <br>
+                    • La progression du questionnaire n’est pas assez visible <br>
+                    • Les utilisateurs doivent avoir la possibilité de passer le questionnaire de personnalisation <br>
+                    • Les différents modes de livraison sur la fiche du produit sont perçus comme des boutons <br>
+                    • La réduction sur la livraison éco-responsable n’a pas été vue <br>
+                    • Tous les modes de livraison doivent être présents sur le récapitulatif du panier <br>
+                    • Dans le récapitulatif de la commande, les utilisateurs ne saisissent pas bien la différence entre
+                    le bon de réduction et le code promo</p>
+                    <p>Je vous invite à aller voir la version 2 pour découvrir les modifications apportées :</p>
+                <a href="https://www.figma.com/proto/LnzHNLzs3eYGOw2knyhBXi/Shiseido?node-id=40%3A1775&viewport=470%2C372%2C0.08582693338394165&scaling=min-zoom"
+                    target="blank" class="btn btn-white my-3">VOIR LE PROTOTYPE</a>
+                <p>Dans le cadre de la formation, nous n'avons pu réaliser que 2 versions du prototype. Si nous avions
+                    réalisé d'autres itérations du prototype, nous aurions pu nous concentrer sur la mise en place d'un
+                    programme de fidélité.
+                </p>
+
+                </p>
+            </div>
+            <!-- / .main-content -->
+
+            <!-- JAVASCRIPT
+    ================================================== -->
+            <!-- Libs JS -->
+            <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+            <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="./assets/libs/@shopify/draggable/lib/es5/draggable.bundle.legacy.js"></script>
+            <script src="./assets/libs/autosize/dist/autosize.min.js"></script>
+            <script src="./assets/libs/chart.js/dist/Chart.min.js"></script>
+            <script src="./assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+            <script src="./assets/libs/flatpickr/dist/flatpickr.min.js"></script>
+            <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+            <script src="./assets/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+            <script src="./assets/libs/list.js/dist/list.min.js"></script>
+            <script src="./assets/libs/quill/dist/quill.min.js"></script>
+            <script src="./assets/libs/select2/dist/js/select2.min.js"></script>
+            <script src="./assets/libs/chart.js/Chart.extension.min.js"></script>
+
+            <!-- Map -->
+            <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+            <!-- Theme JS -->
+            <script src="./assets/js/theme.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</body>
+
+</html>
