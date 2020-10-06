@@ -10920,13 +10920,13 @@ a.nav-link {
   color: white; }
 
 .card {
-  background: #ccccff; }
+  background: radial-gradient(circle, #ccccff 48%, #aeaeff 95%); }
 
 .auchanc {
-  background: #cce4ff; }
+  background: radial-gradient(circle, #cce4ff 48%, #a5d0ff 95%); }
 
 .peoplec {
-  background: #EEDDFF; }
+  background: radial-gradient(circle, #eeddff 48%, #e3c7ff 95%); }
 
 .ilobedcard {
   max-width: 50%;
@@ -10934,6 +10934,7 @@ a.nav-link {
 
 .btn {
   background: #171760;
+  border: #171760;
   color: white; }
 
 .btn:hover {
