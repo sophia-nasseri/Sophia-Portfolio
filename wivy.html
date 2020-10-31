@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/fonts/feather/feather.min.css">
+    <link rel="stylesheet" href="./assets/libs/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="./assets/libs/quill/dist/quill.core.css">
+    <link rel="stylesheet" href="./assets/libs/select2/dist/css/select2.min.css">
+    <link rel="stylesheet" href="./assets/libs/highlight.js/styles/vs2015.css">
+
+    <!-- Map -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Theme CSS -->
+      
+    <link rel="stylesheet" href="./assets/css/theme.min.css" id="stylesheetLight">
+
+    <link rel="stylesheet" href="./assets/css/theme-dark.min.css" id="stylesheetDark">
+
+    
+
+    <title>Projet-Wivy</title>
+</head>
+
+<body>
+    <header class="bg-blue p-3">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <ul class="nav">
+                    <li class="nav-item px-lg-5">
+                        <a class="nav-link" href="index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item px-lg-5">
+                        <a class="nav-link" href="apropos.html">À PROPOS</a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT
+    ================================================== -->
+    <div class="main-content">
+        <div class="container col-auto" style="background: radial-gradient(circle, #cce4ff 48%, #a5d0ff 95%);">
+            <div class="col-auto">
+                <div class="col mb-3 ml-n3 ml-md-n2">
+                    <h1 class=" header-title py-3 text-center">
+                        WIVY
+                    </h1> <br>
+                    <div col="2">
+
+                    </div>
+                    <p class="mb-3"><img src="Objectif.svg" alt="" class="card-img mx-2" style="max-width: 2%;">Objectif
+                        : <b>Redesign de l'application pour harmoniser les différentes interfaces et simplifier
+                            l'expérience utilisateur</b></p>
+                    <p><img src="Temps.svg" alt="" class="card-img mx-2" style="max-width: 2%;">Temps de réalisation :
+                        <b>1 mois</b></p>
+                    <p><img src="Role.svg" alt="" class="card-img mx-2" style="max-width: 2%;">Rôle : <b> Audit UX,
+                            protypage et tests utilisateurs</b></p>
+                </div>
+                <div class="container-fluid">
+                    <div class="header-body mt-n5 mt-md-n6">
+                        <div class="row align-items-end">
+                            <div class="col-auto">
+                            </div>
+                        </div>
+                        <div class="none row align-items-center">
+                            <div class="col d-none d-sm-block">
+                                <ul class="nav nav-tabs nav-overflow header-tabs mt-5">
+                                    <li class="nav-item">
+                                        <a href="#contexte" class="under nav-link">
+                                            CONTEXTE
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#solution" class="under nav-link">
+                                            SOLUTIONS PROPOSÉES
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#design" class="under nav-link">
+                                            DESIGN ET PROTOTYPE
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#resultat" class="under nav-link">
+                                            RÉSULTATS ET APPRENTISSAGES
+                                        </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container col-auto">
+            <div class="row p-5 mt-2" id="contexte">
+                <div class="col-12 col-lg-6">
+                    <h2>CONTEXTE</h2>
+                    <h3>Description de l'application</h3>
+                    <p>Wivy est une application desktop et tablette destinée aux professionnels de l’animation en EHPAD.
+                        L’application se découpe en plusieurs sous-applications avec notamment une partie animations
+                        qui propose une diversité de jeux destinés aux personnes âgées, servant de support pour
+                        l’animateur.
+                        Toutes les animations sont regroupées dans un catalogue, à la manière d’un store pour
+                        applications. Des vignettes permettent d’avoir un résumé global sur le jeu (nom, temps,
+                        difficulté, etc.), l’utilisateur peut accéder à une fiche technique, s’il veut plus de détails.
+                        Lorsque l’animateur a choisi un jeu, il doit le télécharger et accède automatiquement à un
+                        espace “animations téléchargées” pour lancer le jeu. À chaque début de partie l’animateur peut
+                        configurer des options (affichage des scores, affichage des jokers et configuration des
+                        équipes). Chaque animation dispose de son propre environnement graphique et il est possible que
+                        celui-ci soit soit adapté à la thématique de l’animation. <br> </p>
+                    <h3>Problèmes rencontrés</h3>
+                    <p>Dans le cadre de ma mission, j’ai tout d’abord testé l’application et analysé les commentaires
+                        des utilisateurs afin de faire remonter les problèmes que j’ai pu rencontrer. <br> <br>
+
+                        Voici ce que j’ai pu faire remonter : <br> <br>
+
+                        •Il faut passer la souris sur la vignette (ou la toucher sur tablette), pour qu'elle se retourne
+                        et donne accès à d'autres informations sur l'animation. Il n'est donc pas possible d'avoir une
+                        vue globale sur toutes les
+                        caractéristiques de l'animation puisque certaines se retrouvent au dos de la vignette.<br>
+                        •Dans l'espace "animations téléchargées" les utilisateurs n'ont plus accès à la fiche technique
+                        ce qui pose problème, car les animateurs peuvent être amenés à télécharger une animation en
+                        avance et la jouer plus tard. <br>
+                        •La disposition des informations de la fiche technique manque de structure, ce qui les rend
+                        assez
+                        difficile à lire. <br>
+                        •Les éléments de navigation manquent de cohérence entre les jeux et au sein du même jeu. Selon
+                        les
+                        animations, certains boutons ne sont pas représentés par les mêmes icônes, ou ne se trouvent pas à
+                        la même place. À l'inverse, certains boutons partagent la même icône, mais mènent à des actions
+                        différentes, au sein de la même animation (ex: le bouton d'option pour afficher les scores et le
+                        même que celui permettant d'ouvrir le tableau des scores plus tard dans la partie). <br>
+                        •Les boutons d'actions ne sont pas toujours bien visibles, ils ont tendance à se mélanger dans
+                        le décor graphique. <br>
+                        •Le menu des options de jeu manque de structure et il se confond avec le menu de l'application.
+                        <br>
+                        •Le système de recherche d'un thème affiche par défaut tous les thèmes disponibles pour le
+                        catalogue d'animations. Les thèmes étant assez nombreux, il est assez difficile de s'y retrouver
+                        sans rentrer un mot-clé dans la barre de recherche.
+                    </p>
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img src="w-accueil.png" alt="Ecran d'accueil Wivy" class="img-fluid ml-4">
+                    <figcaption class="mt-2 mb-5 ml-4" style="color:#171760;">Écran d'accueil</figcaption>
+                    <img src="vignettes.png" alt="Catalogue Wivy" class="img-fluid ml-4">
+                    <figcaption class="mt-2 mb-5 ml-4" style="color:#171760;">Catalogue d'animations</figcaption>
+                    <img src="nuagethème.png" alt="Nuage de thèmes" class="img-fluid ml-4">
+                    <figcaption class="mt-2 mb-5 ml-4" style="color#171760;">Nuage de thèmes</figcaption>
+                </div>
+            </div>
+            <div class="container-fluid" style="background: radial-gradient(circle, #cce4ff 48%, #a5d0ff 95%);">
+                <div class="row p-5 mt-2" id="solution">
+                    <div class="col-12 col-lg-6">
+                        <img src="croquiswivy1.jpg" alt="Croquis du prototype" class="img-fluid mt-2 pt-5">
+                        <figcaption class="mt-2" style="color:#171760;">Croquis du prototype
+                        </figcaption>
+                        <img src="croquis wivy2.jpg" alt="Croquis du prototype" class="img-fluid my-2 pt-5">
+                        <figcaption class="mt-2" style="color: #171760;">Croquis du prototype</figcaption>
+                    </div class="bl-bg">
+                    <div class="col-12 col-lg-6 px-5 my-5">
+                        <h2>SOLUTIONS PROPOSÉES</h2>
+                        <h3>Hypothèses</h3>
+                        <p>Afin de délimiter un périmètre lors de la phase de prototypage, j’ai priorisé avec l’équipe
+                            Wivy certaines fonctionnalités à réaliser lors de la première version du prototype. De plus,
+                            l’équipe a émis le souhait de développer une fonctionnalité permettant de jouer directement
+                            aux jeux en ligne, tout en gardant la possibilité de télécharger l’animation pour plus tard.
+                            <br> <br>
+                            Nous avons posé les hypothèses suivantes sous la forme de "Comment pourrions-nous ?" : <br>
+                            <br>
+                            • Comment pourrions-nous standardiser l’interface des jeux tout en préservant l’identité de
+                            chacun d’entre eux ? <br>
+                            • Comment pourrions-nous standardiser et structurer le menu des options ? <br>
+                            • Comment pourrions-nous améliorer la fiche technique ? <br>
+                            • Comment pourrions-nous simplifier les vignettes et mettre en valeur les informations
+                            importantes ? <br>
+                            • Comment pourrions-nous simplifier la recherche d’un thème et le système de filtres <br>
+                            • Comment pourrions-nous intégrer la possibilité de jouer en ligne ? <br>
+                        </p>
+                        <h3>Parcours utilisateur et croquis</h3>
+                        <p>En fonction des hypothèses nous avons défini un parcours utilisateur, étapes par étapes :
+                            <br> <br>
+                            • Prendre connaissance de la fiche technique et télécharger un jeu <br>
+                            • Lancer le jeu <br>
+                            • Choisir les options du jeu <br>
+                            • Retrouver l’animation la supprimer <br>
+                            • Rechercher un thème pour une animation en utilisant la barre de recherche <br>
+                            • Rechercher un thème en utilisant les filtres de recherche <br> <br>
+                            Selon le parcours utilisateur, j’ai proposé plusieurs solutions de croquis des écrans
+                            correspondants. Avec l’équipe nous avons choisi une solution pour chaque étape afin
+                            d’établir un parcours complet avant de commencer la phase de prototypage.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row p-5 mt-2" id="design">
+                <div class="col-12 col-lg-12">
+                    <h2>DESIGN ET PROTOTYPE</h2>
+                    <p>À partir des croquis, j'ai créé le prototype sur Figma.</p>
+                    <h3>Catalogue des animations</h3>
+                    <p>•Sur les vignettes, les informations essentielles ont toutes été placées sur une seule face. Les
+                        vignettes ne se retournent plus. <br>
+                        •La difficulté et le temps ont été mis en valeur à l'aide de pictogrammes.<br>
+                        •Le téléchargement à partir de la vignette a été supprimé afin d'obliger les utilisateurs à
+                        ouvrir
+                        la fiche technique. <br>
+                        •La navigation entre le catalogue et les animations téléchargées a été
+                        simplifiée, notamment avec la suppression de la barre latérale. <br>
+                        •Les animations déjà téléchargées ont été mises en avant par un changement de couleur. </p>
+                </div>
+                <div class="col-12 col-lg-12">
+                </div>
+                <img src="w-vignettes.jpg" alt="Avant/après catalogue d'animations" class="img-fluid d-block my-5">
+                <div class="col-12 col-lg-12">
+                    <h3>Fiche technique de l'animation</h3>
+                    <p> •Une liste des questions a été ajoutée pour permettre aux animateurs d'avoir un aperçu du
+                        contenu de l'animation sans la télécharger ou l'ouvrir. <br>
+                        •L'ajout des
+                        compétences sollicitées permet de connaître quelles compétences seront le plus stimulées par
+                        le résident lorsqu'il participe à l'animation. <br>
+                        •En plus des commentaires, les utilisateurs ont accès à la note globale de l'animation ainsi qu'à
+                        la répartition pour chaque note. <br>
+                        •Pour implémenter la fonctionnalité du jeu en ligne, un bouton "jouer en ligne" a été ajouté,
+                        se distinguant du bouton de téléchargement.
+                        <br>
+                    </p>
+                </div>
+                <div class="col-12 col-lg-4">
+                </div>
+                <img src="w-fichetechnique.jpg" alt="Avant/après fiche technique de l'animation"
+                    class="img-fluid d-block my-5">
+                <div class="col-12 col-lg-12">
+                    <h3>Écran d'accueil d'une animation</h3>
+                    <p>L'écran d'accueil a été séparé en deux écrans : une landing page en tant qu'écran d'attente avant
+                        le début de l'animation et un écran de choix des options afin de rendre les options plus
+                        visibles.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-4">
+                </div>
+                <img src="w-accueilwimap.jpg" alt="Avant/après accueil de jeu" class="img-fluid d-block my-5">
+                <div class="col-12 col-lg-12">
+                    <h3>Éléments de navigation</h3>
+                    <p>Tous les éléments secondaires comme le réglage des options, les scores, etc., ont été placés dans
+                        un menu qui est présent sur tous les écrans du jeu.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-4">
+                </div>
+                <img src="w-navigation.jpg" alt="Avant/après navigation" class="img-fluid d-block my-5">
+                <div class="col-12 col-lg-12">
+                    <h3>Menu et options</h3>
+                    <p> Le contenu de l'écran "menu" et de l'écran "options"a été regroupé en un seul écran avec
+                        plusieurs onglets. <br>
+                </div>
+                <div class="col-12 col-lg-4">
+                </div>
+                <img src="w-menu.jpg" alt="Avant/après menu" class="img-fluid d-block my-5">
+            </div>
+            <div class="col-12 col-lg-12">
+                <h3>Recherche et filtres</h3>
+                <p>•La recherche menant à un nuage de thèmes, a été supprimée pour laisser place à une recherche directe
+                    via la barre de recherche. <br>
+                    •Le bouton "recherche avancée" permet d'accéder aux filtres de recherche <br>
+                    •Pour éviter toute confusion il n'est pas possible de cumuler la recherche d'un thème avec un autre thème ou avec un filtre.
+                    •Les "suggestions du moment" permettent aux utilisateurs d'accéder directement à des thèmes suggérés par Wivy.
+                </p>
+            </div>
+            <div class="col-12 col-lg-4">
+            </div>
+            <div>
+                <img src="w-recherchefiltres.jpg" alt="Avant/après recherche" class="img-fluid d-block my-5">
+            </div>
+        </div>
+        <div class="container-fluid" style="background: radial-gradient(circle, #cce4ff 48%, #a5d0ff 95%);">
+            <div class="row p-5 mt-2" id="resultat">
+                <div class="col-auto">
+                    <h2>RÉSULTATS ET APPRENTISSAGES</h2>
+                    <h3>Tests utilisateurs</h3>
+                    <p>J'ai fait tester le prototype par 5 utilisateurs, déjà clients de Wivy dans le but de faire
+                        ressortir les erreurs
+                        et
+                        les problèmes rencontrés. Lors des phases de tests,
+                        j'ai réalisé l’interview pour guider le test. J'ai demandé à l’utilisateur de penser à
+                        haute
+                        voix lorsqu’il teste l’application afin de prendre en note ses remarques.
+                        Au préalable, j'ai écrit un guide d’interview pour m’assurer que
+                        les
+                        questions posées soient en
+                        adéquation avec les hypothèses posées.</p>
+
+                    <p>Voici les apprentissages que l’on a pu retenir : <br>
+
+                        • La fiche technique a été jugée comme peu ordonnée, la notion de compétences sollicitées a été
+                        jugée comme trop complexe <br>
+                        • Sur le menu des options, il semble difficile de distinguer les options activées de celles
+                        désactivées <br>
+                        • Il n'est pas pertinent de laisser les jokers en tant qu'option<br>
+                        • Les utilisateurs ne changent presque jamais les options en cours de jeu<br>
+                        • Le bouton "menu" n'a pas été vu par tous les utilisateurs<br>
+                        • Le menu regroupe trop d'informations, les utilisateurs souhaitent pouvoir accéder aux boutons
+                        principaux directement au premier plan<br>
+                        •La plupart des utilisateurs n'ont pas compris que la recherche d'un thème n'était pas cumulable
+                        aux
+                        filtres ou avec un autre thème <br>
+                        •Les "suggestions du moment" n'ont pas été comprises
+                    </p>
+                    <h3>Améliorations apportées</h3>
+                    <p>La fiche technique a été simplifiée. Puisque les compétences sollicitées avaient peu de valeur
+                        ajoutée pour les utilisateurs, nous avons décidé de les supprimer. Les
+                        objectifs sont présents à nouveau, mais ont été couplés à la description de l'animation. Nous
+                        avons ajouté
+                        des suggestions de thèmes sous forme de "tags", ce qui permet à
+                        l'utilisateur de lancer une recherche directement depuis la fiche technique.</p>
+                    <div class="col-12 col-lg-4">
+                    </div>
+                    <img src="version2 fichetechnique.png" alt="Version 2 fiche technique"
+                        class="img-fluid d-block my-5" style="width: 100% \9;">
+                    <p>Nous avons supprimé l'écran de choix des options. Nous n'avons laissé que le choix des équipes
+                        qui s'ouvre dans une fenêtre après la landing page. L'affichage des scores est activé par défaut,
+                        mais il est possible de le désactiver dans le menu. Le menu a été simplifié et épuré.</p>
+                    <img src="w-menuv2.png" alt="Version 2 menu" class="img-fluid d-block my-5" style="width: 100% \9;">
+                    <p>Afin d'éviter la saturation d'informations et des boutons d'actions dans le menu, nous avons opté
+                        pour une barre de
+                        navigation.</p>
+                    <img src="w-Navbarv2.png" alt="Version 2 Barre de navigation" class="img-fluid d-block my-5"
+                        style="width: 100% \9;">
+                    <p>La recherche se limite à la saisie de mots clés dans la barre de recherche, les filtres ont été
+                        supprimés. Il est désormais possible de cumuler plusieurs mots-clés. Les "suggestions du moment" ont
+                        été remplacées par "jeux du moment" menant directement à une sélection de jeux dans le catalogue.
+                    </p>
+                    <img src="w-recherchev2.png" alt="Version 2 recherche" class="img-fluid d-block my-5"
+                        style="width: 100% \9;">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/@shopify/draggable/lib/es5/draggable.bundle.legacy.js"></script>
+    <script src="./assets/libs/autosize/dist/autosize.min.js"></script>
+    <script src="./assets/libs/chart.js/dist/Chart.min.js"></script>
+    <script src="./assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="./assets/libs/flatpickr/dist/flatpickr.min.js"></script>
+    <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="./assets/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+    <script src="./assets/libs/list.js/dist/list.min.js"></script>
+    <script src="./assets/libs/quill/dist/quill.min.js"></script>
+    <script src="./assets/libs/select2/dist/js/select2.min.js"></script>
+    <script src="./assets/libs/chart.js/Chart.extension.min.js"></script>
+
+    <!-- Map -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</body>
+
+</html>
